@@ -159,7 +159,7 @@ h3 {
 
     
     #welcome-section {
-        width: 100%;
+        width: auto;
         height: 100vh;
     }
     
@@ -198,7 +198,7 @@ h3 {
 
     #projects {
         
-        width: 100%;
+        width: auto;
         height: 200vh;
         padding-left: 50px;
     }
@@ -244,7 +244,7 @@ h3 {
 
 
     #contact {
-        width: 100%;
+        width: auto;
         height: 100vh;
         padding:0;
         margin: 0;
