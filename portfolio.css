@@ -1,169 +1,153 @@
-/*
-=====================================================
-|                                                   |
-|                   For Whole Body                  | 
-|                                                   |
-=====================================================
-*/
+/* Whole body */
 
 body {
-    margin: 0;
-    background-color: rgb(87, 86, 86);
+  margin: 0;
+  background-color: rgb(87, 86, 86);
 }
 
-/*
-=====================================================
-|                                                   |
-|                   Welcome Page                    | 
-|                                                   |
-=====================================================
-*/
+/* header & Navbar */
 
-#welcome-section {
-    width: 100%;
-    height: 100vh;
+.container {
+  position: fixed;
+  background-color: rgb(238, 91, 91);
+  /* min-height: 50px; */
+  width: 100%;
+  margin-top: -35px;
+  padding: 0;
 }
 
-#navbar {
-    position: fixed;
-    background-color: rgb(238, 91, 91);
-    min-height: 73px;
-    width: 100%;
+ul {
+  margin: 0em;
 }
 
 .container a {
-    float: right;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-decoration: none;
-    color: black;
-    padding: 20px 30px;
+  float: right;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+
+  text-decoration: none;
+  color: black;
+  padding: 20px 30px;
+  /* margin-top: -15px; */
 }
 
 .container a:hover {
-    background-color: rgb(56, 52, 52, 0.6);
-    color: white;
+  background-color: rgb(56, 52, 52, 0.6);
+  color: white;
+}
+
+/* Welcome Section */
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
 }
 
 h1 {
-    font-size: 50px;
-    font-weight: 900;
-    font-family: sans-serif;
-    font-style: italic;
-    text-align: center;
-    padding-top: 200px;
-    margin-bottom: 0em;
-    color: white;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 0em;
+  color: white;
 }
 
 .web {
-    font-size: 30px;
-    font-weight: 500;
-    font-family: sans-serif;
-    font-style: italic;
-    color: white;
-    text-align: center;
-    margin-top: 0em;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-top: 0em;
 }
 
-/*
-=====================================================
-|                                                   |
-|                  Projects Page                    | 
-|                                                   |
-=====================================================
-*/
+/* Project Page */
 
 #projects {
-    width: 75vw;
-    height: 100vh;  /* Taking the whole page as the height */
-    padding: 50px;
-    margin: auto;
+  width: 75vw;
+  height: 100vh; /* Taking the whole page as the height */
+  padding: 50px;
+  margin: auto;
 }
 
 .column p {
-    background-color: rgba(43, 42, 42, 0.6);
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    height: 30px;
-    margin-top: -0.5em;
-    padding: 10px;
+  background-color: rgba(43, 42, 42, 0.6);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  height: 30px;
+  margin-top: -0.5em;
+  padding: 10px;
 }
 
 .column a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
 }
 
 /* Making the projets as column*/
 .column {
-    float: left;
-    width: 40%;
-    margin: 25px;
+  float: left;
+  width: 40%;
+  margin: 25px;
 }
 
 .column :hover {
-   background-color: teal;
+  background-color: teal;
 }
 
 /* Adding space between columns*/
 #projects > .column {
-    padding: 5px;
+  padding: 5px;
 }
 
-/*
-=====================================================
-|                                                   |
-|                  Contact Page                     | 
-|                                                   |
-=====================================================
-*/
+/* Contact Page */
 
 #contact {
-    width: 100%;
-    height: 100vh;  /* Taking the whole page as the height */
+  width: 100%;
+  height: 100vh; /* Taking the whole page as the height */
 }
 
 h3 {
-    font-size: 100px;
-    font-weight: 900;
-    font-style: oblique;
-    text-align: center;
-    padding-top: 200px;
-    color: rgb(204, 185, 185);
-    margin-bottom: 0em;
+  font-size: 100px;
+  font-weight: 900;
+  font-style: oblique;
+  text-align: center;
+  padding-top: 200px;
+  color: rgb(204, 185, 185);
+  margin-bottom: 0em;
 }
 
 #contact p {
-    font-size: 40px;
-    font-weight: 600;
-    font-style: oblique;
-    text-align: center;
-    color: rgb(204, 185, 185);
-    margin-top: 0em;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: oblique;
+  text-align: center;
+  color: rgb(204, 185, 185);
+  margin-top: 0em;
 }
 
 .links {
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
 }
 
 .links a {
-    text-decoration: none;
-    color: rgb(204, 185, 185);
+  text-decoration: none;
+  color: rgb(204, 185, 185);
 }
-
-
 
 /*
 =====================================================
@@ -174,158 +158,141 @@ h3 {
 =====================================================
 */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
+  /* Welcome Page */
 
-    /*
-    =====================================================
-    |                                                   |
-    |                   Welcome Page                    | 
-    |                                                   |
-    =====================================================
-    */
+  #welcome-section {
+    width: 100%;
+    height: 50vh;
+    margin-left: 20px;
+  }
 
-    #welcome-section {
-        width: 100%;
-        height: 100vh;
-    }
+  /* .container {
+    position: fixed;
+    background-color: rgb(192, 122, 122);
+    min-height: 40px;
+    width: 100%;
+  } */
+  ul {
+    margin-left: 150px;
 
-    #navbar {
-        position: fixed;
-        background-color: rgb(238, 91, 91);
-        min-height: 40px;
-        width: 100%;
-    }
+    padding-right: 1%;
+  }
 
-    .container a {
-        display: block;
-        font-weight: 500;
-        font-size: 12px;
-        width: 100px;
-        margin-left: 150px;
-        margin-right: 50px;
-        padding: 10px;
-        text-align: center;
-        color: indigo;
-    }
+  .container a {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    width: 100px;
 
-    h1 {
-        font-size: 30px;
-        font-weight: 600;
-        font-family: sans-serif;
-        font-style: italic;
-        text-align: center;
-        padding-left: auto;
-        padding-right: auto;
-        padding-top: 200px;
-        margin-bottom: 0em;
-        color: white;
-    }
-    
-    .web {
-        font-size: 15px;
-        font-weight: 500;
-        font-family: sans-serif;
-        font-style: italic;
-        color: white;
-        text-align: center;
-        padding-left: auto;
-        padding-right: auto;
-        margin-top: 0em;
-    }
+    text-align: center;
+    color: rgb(51, 38, 61);
+  }
 
-    /*
-    =====================================================
-    |                                                   |
-    |                   Welcome Page                    | 
-    |                                                   |
-    =====================================================
-    */
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 200px;
+    margin-bottom: 0em;
+    color: white;
+  }
 
-    #projects {
-        width: 100%;
-        height: 200vh;
-        padding-left: auto;
-        padding-right: auto;
-    }
+  .web {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 0em;
+  }
 
-    .column {
-        width: 60vw;
-    }
+  #projects {
+    width: 100%;
+    height: 200vh;
+    padding-left: auto;
+    padding-right: auto;
+  }
 
-    .content a {
-        display: block;
-        text-decoration: none;
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    #projects > .column {
-        padding: 0;
-    }
-    
-    .content p {
-        background-color: rgba(43, 42, 42, 0.6);
-        font-size: 10px;
-        font-weight: 400;
-        text-align: center;
-        color: white;
-        height: 30px;
-        margin-top: -10px;
-        padding: 10px;
-    }
-    
-    .column :hover {
-        background-color: teal;
-        padding: 0;
-        margin: 0;
-    }
-    
-    /*
-    =====================================================
-    |                                                   |
-    |                   Welcome Page                    | 
-    |                                                   |
-    =====================================================
-    */
+  .column {
+    width: 80vw;
+    text-align: center;
+    border: 2px solid red;
+  }
 
-    #contact {
-        width: 100%;
-        height: 100vh;
-        padding-left: auto;
-        padding-right: auto;
-        margin: 0;
-    }
-    
-    h3 {
-        font-size: 40px;
-        font-weight: 600;
-        font-style: oblique;
-        text-align: center;
-        padding: 0;
-        color: rgb(204, 185, 185);
-        margin-bottom: 0em;
-    }
-    
-    #contact p {
-        font-size: 20px;
-        font-weight: 400;
-        font-style: oblique;
-        text-align: center;
-        color: rgb(204, 185, 185);
-        margin-top: 0em;
-    }
-    
-    .links {
-        font-size: 15px;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-        text-decoration: none;
-    }
-    
-    .links a {
-        text-decoration: none;
-        color: rgb(204, 185, 185);
-    }
+  .content a {
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #projects > .column {
+    padding: 0;
+  }
+
+  .content p {
+    background-color: rgba(43, 42, 42, 0.6);
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    height: 30px;
+    margin-top: -10px;
+    padding: 10px;
+  }
+
+  .column :hover {
+    background-color: teal;
+    padding: 0;
+    margin: 0;
+  }
+
+  #contact {
+    width: 100%;
+    height: 50vh;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 25px;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: oblique;
+    text-align: center;
+    padding: 0;
+    color: rgb(204, 185, 185);
+    margin-bottom: 0em;
+  }
+
+  #contact p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(204, 185, 185);
+    margin-top: 0em;
+  }
+
+  .links {
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: rgb(204, 185, 185);
+  }
 }
